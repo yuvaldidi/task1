@@ -7,10 +7,8 @@ int main(){
         int num1, num2;
 
     // Input two positive integers from the user
-    printf("Enter a positive integer: ");
     scanf("%d", &num1);
 
-    printf("Enter another positive integer: ");
     scanf("%d", &num2);
 
     //int test=isPrime(num1);
