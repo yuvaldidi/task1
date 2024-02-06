@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 int isPrime(int n){
-     if (n <= 1) {
+     if (n < 1) {
         return 0; // 0 and 1 are not prime numbers
     }
 
