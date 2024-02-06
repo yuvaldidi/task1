@@ -8,10 +8,10 @@ mains: main.o libclassrec.a
 	gcc ${CFLAGS} -o mains main.o libclassrec.a -lm
 
 maindloop: main.o libclassloops.so
-	gcc ${CFLAGS} -o maindloop main.o -L. -lclassloops -lm
+	gcc ${CFLAGS} -o maindloop main.o ./libclassloops.so
 
 maindrec: main.o libclassrec.so
-	gcc ${CFLAGS} -o maindrec main.o -L. -lclassrec -lm
+	gcc ${CFLAGS} -o maindrec main.o ./libclassrec.so
 
 loops: libclassloops.a
 
