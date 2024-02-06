@@ -29,14 +29,14 @@ int main(){
         //printf("Please enter positive integers only.\n");
     } else {
         // Print each of the desired rows using the provided C functions
-        printf("The Armstrong numbers are: ");
+        printf("The Armstrong numbers are:");
         for (int num = num1; num <= num2; ++num) {
             if (isArmstrong(num)) {
                 printf("%d ", num);
             }
         }
         printf("\n");
-        printf("The Palindromes are: ");
+        printf("The Palindromes are:");
         for (int num = num1; num <= num2; ++num) {
             if (isPalindrome(num)) {
                 printf("%d ", num);
@@ -52,7 +52,7 @@ int main(){
         }
         printf("\n");
 
-        printf("The Strong numbers are: ");
+        printf("The Strong numbers are:");
         for (int num = num1; num <= num2; ++num) {
             if (isStrong(num)) {
                 printf("%d ", num);
