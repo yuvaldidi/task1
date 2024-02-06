@@ -32,14 +32,14 @@ int main(){
         printf("The Armstrong numbers are:");
         for (int num = num1; num <= num2; ++num) {
             if (isArmstrong(num)) {
-                printf("%d ", num);
+                printf(" %d", num);
             }
         }
         printf("\n");
         printf("The Palindromes are:");
         for (int num = num1; num <= num2; ++num) {
             if (isPalindrome(num)) {
-                printf("%d ", num);
+                printf(" %d", num);
             }
         }
         printf("\n");
@@ -47,7 +47,7 @@ int main(){
         printf("The Prime numbers are:");
         for (int num = num1; num <= num2; ++num) {
             if (isPrime(num)) {
-                printf("%d ", num);
+                printf(" %d", num);
             }
         }
         printf("\n");
@@ -55,7 +55,7 @@ int main(){
         printf("The Strong numbers are:");
         for (int num = num1; num <= num2; ++num) {
             if (isStrong(num)) {
-                printf("%d ", num);
+                printf(" %d", num);
             }
         }
         printf("\n");
